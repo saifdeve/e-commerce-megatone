@@ -12,10 +12,7 @@ export default function Header(){
                         <img style={{width:'150px'}} src={Logo} alt='Logo'/>
                     </div>
                     <div className='headerSearch'>
-                        <div className='selectDrop'>
-                            All Categories
-                            <Select/>
-                        </div>
+                        <Select/>
                         <div className='search'>
                             <input type='text' placeholder='Search for items...'/>
                             <SearchIcon className='searchIcon'/>
