@@ -2,7 +2,8 @@
 import './Header.css';
 import Logo from '../../assets/images/logo.svg';
 import SearchIcon from '@mui/icons-material/Search';
-import Select from '../selectDrop/select'
+import Select from '../selectDrop/select';
+import ListHeader from '../listHeader/listHeader';
 
 export default function Header(){
     return(
@@ -17,6 +18,9 @@ export default function Header(){
                             <input type='text' placeholder='Search for items...'/>
                             <SearchIcon className='searchIcon'/>
                         </div>
+                    </div>
+                    <div className='listHeader'>
+                        <ListHeader/>
                     </div>
             </div>
 
