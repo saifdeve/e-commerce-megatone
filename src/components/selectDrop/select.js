@@ -7,7 +7,14 @@ export default function Select(){
     const Menus =[{id:1,name:"All Categories"},{id:2,name:"Milks and Dairies"},{id:3,name:"Wines & Drinks"},{id:4,name:"Clothing & beauty"},{id:5,name:"Fresh Seafood"},{id:6,name:"Pet Foods & Toy"},{id:7,name:"Fast food"},{id:8,name:"Bread and Juice"},{id:9,name:"Vegetables"},{id:10,name:"Fresh Seafood"},{id:11,name:"Pet Foods & Toy"},{id:12,name:"Vegetables"},{id:13,name:"Fresh Seafood"},{id:14,name:"Pet Foods & Toy"}];
     const [isOpenSelect, setisOpenSelect]= useState(false);
     const [selectedIndex, setSelectedIndex] = useState(-1); // -1: aucun élément sélectionné
-    const [selectCategory,setSelectCategory] = useState('All Categories')
+    const [selectCategory,setSelectCategory] = useState('All Categories');
+    const [searchTerm, setSearchTerm] = useState("");
+    const handleSearchChange = (event) => {
+        setSearchTerm(event.target.value);
+    };
+    const filteredMenus = Menus.filter((menu) =>
+        menu.name.toLowerCase().includes(searchTerm.toLowerCase())
+    );
     const spanRef = useRef();
     const menuRef = useRef();
     const searchRef = useRef();
@@ -26,11 +33,11 @@ export default function Select(){
                 isOpenSelect && (
                     <div  className='select-Drop'>
                         <div className='searchDrop'>
-                            <input ref={searchRef} type='text' placeholder='Search for categories...'/>
+                            <input ref={searchRef} type='text' placeholder='Search for categories...' value={searchTerm} onChange={handleSearchChange}/>
                         </div>
                         <ul  ref={menuRef} className='searchResults'>
                             {
-                                Menus.map((menu) => (
+                                filteredMenus.map((menu) => (
                                 <li className={`${selectedIndex === menu.id ? 'active':''}`} onClick={() => handleClick(menu.id)}  key={menu.id}>{menu.name}</li>
                                 ))
                             }
