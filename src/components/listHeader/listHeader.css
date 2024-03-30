@@ -1,3 +1,4 @@
 .itemsUlHeader{display: flex;}
 .itemsUlHeader .itemHeader{position: relative;;padding:0px; margin: 10px 20px;cursor: pointer;color: #7E7E7E;font-family:inherit;}
-.itemsUlHeader .itemHeader .numberStatue{position: absolute;bottom: 23px;;left:20px;padding: 3px 7px;border-radius: 50%;background-color:#3BB77E;color: white;font-size: 12px;}
+.itemsUlHeader .itemHeader .numberStatue{position: absolute;bottom: 23px;;left:20px;padding: 3px 7px 3px 6px;border-radius: 50%;background-color:#3BB77E;color: white;font-size: 12px;}
+.itemsUlHeader .itemHeader .nullStatue{}
