@@ -1,11 +1,79 @@
-header{ width: 100%; height: auto; margin: auto; padding: 30px 0;font-family: "Lato", sans-serif;}
+/* Définition du style pour l'en-tête */
+header {
+    width: 100%; /* Définit la largeur de l'en-tête à 100% de la largeur de son conteneur parent */
+    height: auto; /* Ajuste automatiquement la hauteur en fonction du contenu */
+    margin: auto; /* Centre l'en-tête horizontalement */
+    padding: 30px 0; /* Ajoute un remplissage de 30 pixels en haut et en bas */
+    font-family: "Lato", sans-serif; /* Définit la police de caractères pour l'en-tête */
+}
 
-header .container-fluid{padding: 0 25px;display: flex;}
-header .container-fluid .headerLogo{padding: 0 25px 0 0;}
-header .container-fluid .headerSearch{display: flex; width: 55%; height: 40px; border: 1px solid #bce3c9;padding: 0;}
-header .container-fluid .headerSearch .selectDrop{cursor: pointer;position: relative; width: 25%;padding: 10px 10px 10px 10px;font-size: 15px;font-weight: 500;}
-header .container-fluid .headerSearch .selectDrop::after{position: absolute; top:5px ; right:0;content:'';width: 1px; height: 30px;background-color: rgba(0, 0, 0, 0.2);}
-header .container-fluid .headerSearch .search{width: 75%;position: relative;}
-header .container-fluid .headerSearch .search input{width: 100%; height: 100%;border: 0;padding: 0 0 0 10px;outline: none !important;font-size: 14px;}
-header .container-fluid .headerSearch .search .searchIcon{position: absolute;right: 5px; top:7px;cursor: pointer; color: #bce3c9;}
-/* header .container-fluid .listHeader{background-color: aqua;} */
+/* Style pour le conteneur fluide à l'intérieur de l'en-tête */
+header .container-fluid {
+    padding: 0 25px; /* Ajoute un remplissage de 0 pixels sur les côtés gauche et droit et de 25 pixels en haut et en bas */
+    display: flex; /* Affiche les éléments en utilisant le modèle de boîte flexible */
+}
+
+/* Style pour le logo dans l'en-tête */
+header .container-fluid .headerLogo {
+    padding: 0 25px 0 0; /* Ajoute un remplissage à droite du logo */
+}
+
+/* Style pour la zone de recherche dans l'en-tête */
+header .container-fluid .headerSearch {
+    display: flex; /* Affiche les éléments en utilisant le modèle de boîte flexible */
+    width: 55%; /* Définit la largeur de la zone de recherche à 55% du conteneur parent */
+    height: 40px; /* Définit la hauteur de la zone de recherche */
+    border: 1px solid #bce3c9; /* Ajoute une bordure de 1 pixel solide avec une couleur spécifiée */
+    padding: 0; /* Supprime le remplissage de la zone de recherche */
+}
+
+/* Style pour la liste déroulante dans la zone de recherche */
+header .container-fluid .headerSearch .selectDrop {
+    cursor: pointer; /* Définit le curseur de la souris en tant que pointeur */
+    position: relative; /* Positionne l'élément relativement à sa position normale */
+    width: 25%; /* Définit la largeur de la liste déroulante à 25% de la zone de recherche */
+    padding: 10px; /* Ajoute un remplissage de 10 pixels à la liste déroulante */
+    font-size: 15px; /* Définit la taille de la police de caractères */
+    font-weight: 500; /* Définit l'épaisseur de la police de caractères */
+}
+
+/* Style pour le séparateur après la liste déroulante dans la zone de recherche */
+header .container-fluid .headerSearch .selectDrop::after {
+    position: absolute; /* Positionne l'élément de manière absolue par rapport à son conteneur parent */
+    top: 5px; /* Positionne l'élément à 5 pixels du haut de son conteneur parent */
+    right: 0; /* Positionne l'élément à droite de son conteneur parent */
+    content: ''; /* Ajoute du contenu à l'élément (ici, aucun) */
+    width: 1px; /* Définit la largeur de l'élément */
+    height: 30px; /* Définit la hauteur de l'élément */
+    background-color: rgba(0, 0, 0, 0.2); /* Définit la couleur de fond de l'élément */
+}
+
+/* Style pour la zone de saisie de recherche dans la zone de recherche */
+header .container-fluid .headerSearch .search {
+    width: 75%; /* Définit la largeur de la zone de saisie de recherche à 75% de la zone de recherche */
+    position: relative; /* Positionne l'élément relativement à sa position normale */
+}
+
+/* Style pour le champ de saisie de recherche */
+header .container-fluid .headerSearch .search input {
+    width: 100%; /* Définit la largeur du champ de saisie de recherche à 100% de la zone de saisie de recherche */
+    height: 100%; /* Définit la hauteur du champ de saisie de recherche à 100% de la zone de saisie de recherche */
+    border: 0; /* Supprime la bordure du champ de saisie de recherche */
+    padding: 0 0 0 10px; /* Ajoute un remplissage de 10 pixels à gauche du champ de saisie de recherche */
+    outline: none !important; /* Supprime la mise en évidence du champ de saisie de recherche lorsqu'il est sélectionné */
+    font-size: 14px; /* Définit la taille de la police de caractères */
+}
+
+/* Style pour l'icône de recherche dans la zone de recherche */
+header .container-fluid .headerSearch .search .searchIcon {
+    position: absolute; /* Positionne l'élément de manière absolue par rapport à son conteneur parent */
+    right: 5px; /* Positionne l'icône à 5 pixels de la droite de son conteneur parent */
+    top: 7px; /* Positionne l'icône à 7 pixels du haut de son conteneur parent */
+    cursor: pointer; /* Définit le curseur de la souris en tant que pointeur */
+    color: #bce3c9; /* Définit la couleur de l'icône */
+}
+
+/* Style pour l'en-tête de la liste */
+header .container-fluid .listHeader {
+    margin-left: 30px; /* Ajoute une marge à gauche à l'en-tête de la liste */
+}

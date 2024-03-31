@@ -1,4 +1,70 @@
-.itemsUlHeader{display: flex;}
-.itemsUlHeader .itemHeader{position: relative;;padding:0px; margin: 10px 20px;cursor: pointer;color: #7E7E7E;font-family:inherit;}
-.itemsUlHeader .itemHeader .numberStatue{position: absolute;bottom: 23px;;left:20px;padding: 3px 7px 3px 6px;border-radius: 50%;background-color:#3BB77E;color: white;font-size: 12px;}
-.itemsUlHeader .itemHeader .nullStatue{}
+/* Style pour la liste des éléments de menu */
+.itemsUlHeader {
+    display: flex; /* Affiche les éléments en utilisant le modèle de boîte flexible */
+}
+
+/* Style pour chaque élément de menu */
+.itemsUlHeader .itemHeader {
+    position: relative; /* Positionne l'élément relativement à sa position normale */
+    padding: 0px; /* Supprime le remplissage autour de l'élément */
+    margin: 10px 20px; /* Définit les marges autour de l'élément */
+    cursor: pointer; /* Définit le curseur de la souris en tant que pointeur */
+    color: #7E7E7E; /* Définit la couleur du texte */
+    font-family: inherit; /* Utilise la police de caractères de l'élément parent */
+}
+
+/* Style pour les images à l'intérieur des éléments de menu */
+.itemsUlHeader .itemHeader img {
+    width: 25px; /* Définit la largeur des images à 25 pixels */
+}
+
+/* Style pour la représentation numérique de l'état à l'intérieur des éléments de menu */
+.itemsUlHeader .itemHeader .numberStatue {
+    position: absolute; /* Positionne l'élément de manière absolue par rapport à son conteneur parent */
+    bottom: 23px; /* Positionne l'élément à 23 pixels du bas de son conteneur parent */
+    left: 20px; /* Positionne l'élément à 20 pixels de la gauche de son conteneur parent */
+    padding: 3px 7px 3px 6px; /* Ajoute un remplissage autour de l'élément */
+    border-radius: 50%; /* Définit le rayon de bordure pour créer un cercle */
+    background-color: #3BB77E; /* Définit la couleur de fond de l'élément */
+    color: white; /* Définit la couleur du texte */
+    font-size: 12px; /* Définit la taille de la police de caractères */
+}
+
+/* Style pour le menu déroulant du compte utilisateur */
+.dropDownMenuAccount {
+    position: absolute; /* Positionne l'élément de manière absolue par rapport à son conteneur parent */
+    top: 30px; /* Positionne l'élément à 30 pixels du haut de son conteneur parent */
+    right: 10px; /* Positionne l'élément à 10 pixels de la droite de son conteneur parent */
+    width: 200px; /* Définit la largeur de l'élément */
+    height: auto; /* Ajuste automatiquement la hauteur en fonction du contenu */
+    box-shadow: 0 3px 6px rgb(0 0 0 / 20%); /* Ajoute une ombre à l'élément */
+}
+
+/* Style pour chaque élément de la liste déroulante */
+.dropDownMenuAccount li {
+    width: 100%; /* Définit la largeur de chaque élément à 100% de son conteneur parent */
+    list-style: none; /* Supprime les puces de la liste */
+}
+
+/* Style pour les boutons à l'intérieur de la liste déroulante */
+.dropDownMenuAccount li .dropbtn {
+    justify-content: flex-start; /* Aligne les éléments à gauche */
+    width: 100%; /* Définit la largeur des boutons à 100% de leur conteneur parent */
+    padding: 10px 15px; /* Ajoute un remplissage autour des boutons */
+    margin-top: 10px; /* Ajoute une marge en haut des boutons */
+    font-size: 12px; /* Définit la taille de la police de caractères */
+    font-family: inherit; /* Utilise la police de caractères de l'élément parent */
+    color: #000000; /* Définit la couleur du texte */
+}
+
+/* Style pour les boutons survolés à l'intérieur de la liste déroulante */
+.dropDownMenuAccount li .dropbtn:hover {
+    color: #3BB77E; /* Change la couleur du texte lorsqu'on survole les boutons */
+    transition: 0.5s; /* Ajoute une transition de 0.5 seconde lors du changement de couleur */
+}
+
+/* Style pour le texte à l'intérieur des boutons de la liste déroulante */
+.dropDownMenuAccount .dropbtn .dropspan {
+    padding-left: 5px; /* Ajoute un remplissage à gauche du texte */
+    text-transform: capitalize !important; /* Convertit le texte en majuscule */
+}

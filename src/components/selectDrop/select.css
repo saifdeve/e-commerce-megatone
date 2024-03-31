@@ -1,11 +1,77 @@
-.openSelect{position: relative; display: block;padding: 0 5px 10px 10px;}
-.openSelect .arrow{position: absolute; right:0px ;top:2px;font-size: 16px;}
-.select-Drop{width: 300px;height: auto;position: relative;top:10px;right:15px;z-index: 100;
-box-shadow: 0 3px 6px rgb(0 0 0 / 20%);padding: 15px;}
-.searchDrop input{width: 100%;height: 30px;border: 1px solid #bce3c9;outline: 0;padding: 0 10px;}
-.select-Drop .searchResults{width: 100%;margin: 10px 0;padding:10px 0px;max-height: 400px;overflow-y: scroll;}
-.select-Drop .searchResults::-webkit-scrollbar{width: 10px !important;}
-.select-Drop .searchResults::-webkit-scrollbar-thumb{background-color: #bce3c9 !important;border-radius: 10px;}
-.select-Drop .searchResults li{list-style: none;width: 100%;padding: 7px;color: #7E7E7E;font-size: 14px;font-family:inherit;}
-.select-Drop .searchResults li:hover{background-color: #bce3c9;color: #7E7E7E;}
-.select-Drop .searchResults li.active{background-color: #ececec;color: #7E7E7E;}
+/* Style pour l'élément de sélection ouvert */
+.openSelect {
+    position: relative; /* Positionnement relatif pour l'élément parent */
+    display: block; /* Affiche l'élément en tant que bloc */
+    padding: 0 5px 10px 10px; /* Ajoute un remplissage à l'élément */
+}
+
+/* Style pour la flèche de l'élément de sélection */
+.openSelect .arrow {
+    position: absolute; /* Positionnement absolu pour la flèche */
+    right: 0px; /* Positionne la flèche à droite de son conteneur */
+    top: 2px; /* Positionne la flèche à 2 pixels du haut de son conteneur */
+    font-size: 16px; /* Définit la taille de la police de caractères */
+}
+
+/* Style pour le menu déroulant de sélection */
+.select-Drop {
+    width: 300px; /* Définit la largeur de l'élément */
+    height: auto; /* Ajuste automatiquement la hauteur en fonction du contenu */
+    position: relative; /* Positionnement relatif pour l'élément */
+    top: 10px; /* Positionne l'élément à 10 pixels du haut de son conteneur parent */
+    right: 15px; /* Positionne l'élément à 15 pixels de la droite de son conteneur parent */
+    z-index: 100; /* Définit l'ordre d'empilement de l'élément */
+    box-shadow: 0 3px 6px rgb(0 0 0 / 20%); /* Ajoute une ombre à l'élément */
+    padding: 15px; /* Ajoute un remplissage à l'élément */
+}
+
+/* Style pour la zone de recherche dans le menu déroulant */
+.searchDrop input {
+    width: 100%; /* Définit la largeur de l'élément à 100% de son conteneur parent */
+    height: 30px; /* Définit la hauteur de l'élément */
+    border: 1px solid #bce3c9; /* Ajoute une bordure à l'élément */
+    outline: 0; /* Supprime la bordure lorsqu'on clique sur l'élément */
+    padding: 0 10px; /* Ajoute un remplissage à l'élément */
+}
+
+/* Style pour la liste des résultats de recherche dans le menu déroulant */
+.select-Drop .searchResults {
+    width: 100%; /* Définit la largeur de l'élément */
+    margin: 10px 0; /* Ajoute des marges en haut et en bas de l'élément */
+    padding: 10px 0px; /* Ajoute un remplissage à l'élément */
+    max-height: 400px; /* Définit la hauteur maximale de l'élément */
+    overflow-y: scroll; /* Ajoute une barre de défilement verticale lorsque nécessaire */
+}
+
+/* Style pour la barre de défilement dans la liste des résultats de recherche */
+.select-Drop .searchResults::-webkit-scrollbar {
+    width: 10px !important; /* Définit la largeur de la barre de défilement */
+}
+
+/* Style pour le pouce de la barre de défilement */
+.select-Drop .searchResults::-webkit-scrollbar-thumb {
+    background-color: #bce3c9 !important; /* Définit la couleur de fond du pouce de la barre de défilement */
+    border-radius: 10px; /* Définit le rayon de bordure du pouce */
+}
+
+/* Style pour chaque élément de la liste des résultats de recherche */
+.select-Drop .searchResults li {
+    list-style: none; /* Supprime les puces de la liste */
+    width: 100%; /* Définit la largeur de l'élément */
+    padding: 7px; /* Ajoute un remplissage à l'élément */
+    color: #7E7E7E; /* Définit la couleur du texte */
+    font-size: 14px; /* Définit la taille de la police de caractères */
+    font-family: inherit; /* Utilise la police de caractères de l'élément parent */
+}
+
+/* Style pour chaque élément survolé dans la liste des résultats de recherche */
+.select-Drop .searchResults li:hover {
+    background-color: #bce3c9; /* Change la couleur de fond lorsqu'on survole l'élément */
+    color: #7E7E7E; /* Change la couleur du texte lorsqu'on survole l'élément */
+}
+
+/* Style pour l'élément actif dans la liste des résultats de recherche */
+.select-Drop .searchResults li.active {
+    background-color: #ececec; /* Définit la couleur de fond de l'élément actif */
+    color: #7E7E7E; /* Définit la couleur du texte de l'élément actif */
+}

@@ -11,6 +11,8 @@ import SearchIcon from '@mui/icons-material/Search';
 import Select from '../selectDrop/select';
 import ListHeader from '../listHeader/listHeader';
 
+import Nav from './nav/nav.js';
+
 // Définition du composant Header
 export default function Header() {
     // Rendu du composant
@@ -36,6 +38,8 @@ export default function Header() {
                     <ListHeader/>
                 </div>
             </div>
+            <Nav/>
         </header>
+
     );
 }

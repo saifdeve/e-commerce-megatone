@@ -1,0 +1,11 @@
+.nav{width: auto; height: 50px;margin-top: 10px;background-color: rgb(238, 238, 13);}
+.container{display: flex;width: auto;height: 100%;}
+.container .nav-button{width: 20%;margin: 5px 0px 0px 20px;}
+/* .container .nav-button .categoriesBtn{background-color: rgb(21, 255, 0);} */
+.container .nav-button Button{position: relative;height: 90%;width: 95%;border-radius: 10px;background-color: #3BB77E;color: white;}
+.container .nav-button Button span{padding: 5px 10px 0 5px;font-size: 12px;}
+.container .nav-button Button .arrow{position: absolute;top: 15px;right:10px;font-size: 15px;}
+.container .nav-menus{width: 60%;}
+.container .nav-menus ul{display: flex; justify-content: space-around;background-color: rgb(231, 143, 28);height: 100%;padding-top: 15px;}
+.container .nav-menus ul li{cursor: pointer;list-style: none;}
+.container .nav-support{width: 20%;background-color: blue;}

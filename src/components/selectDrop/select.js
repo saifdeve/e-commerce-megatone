@@ -51,7 +51,8 @@ export default function Select() {
         <div className='selectDrop'>
             {/* Bouton pour ouvrir/fermer le menu déroulant */}
             <span ref={spanRef} onClick={() => setisOpenSelect(!isOpenSelect)} className='openSelect'>
-                {selectCategory} <KeyboardArrowDownIcon className='arrow' />
+                {/* Vérifie si la longueur de selectCategory est supérieure à 17 caractères . Si c'est le cas, utilise substr(0,17) pour obtenir les 17 premiers caractères de selectCategory et ajoute '...' pour indiquer qu'il y a plus de texte . Sinon, affiche simplement selectCategory sans modifications*/}
+                {selectCategory.length>17 ?selectCategory.substr(0,17)+'...': selectCategory} <KeyboardArrowDownIcon className='arrow' /> 
             </span>
 
             {/* Menu déroulant */}
