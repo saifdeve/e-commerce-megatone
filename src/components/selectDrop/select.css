@@ -23,6 +23,7 @@
     z-index: 100; /* Définit l'ordre d'empilement de l'élément */
     box-shadow: 0 3px 6px rgb(0 0 0 / 20%); /* Ajoute une ombre à l'élément */
     padding: 15px; /* Ajoute un remplissage à l'élément */
+    background: #ffffff;
 }
 
 /* Style pour la zone de recherche dans le menu déroulant */

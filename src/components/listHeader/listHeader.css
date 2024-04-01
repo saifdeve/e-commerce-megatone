@@ -38,6 +38,7 @@
     width: 200px; /* Définit la largeur de l'élément */
     height: auto; /* Ajuste automatiquement la hauteur en fonction du contenu */
     box-shadow: 0 3px 6px rgb(0 0 0 / 20%); /* Ajoute une ombre à l'élément */
+    background: #ffff;
 }
 
 /* Style pour chaque élément de la liste déroulante */

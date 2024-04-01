@@ -9,7 +9,7 @@ export default function Select() {
 
     // Définition des options de menu disponibles
     const Menus =[{id:1,name:"All Categories"},{id:2,name:"Milks and Dairies"},{id:3,name:"Wines & Drinks"},{id:4,name:"Clothing & beauty"},{id:5,name:"Fresh Seafood"},{id:6,name:"Pet Foods & Toy"},{id:7,name:"Fast food"},{id:8,name:"Bread and Juice"},{id:9,name:"Vegetables"},{id:10,name:"Fresh Seafood"},{id:11,name:"Pet Foods & Toy"},{id:12,name:"Vegetables"},{id:13,name:"Fresh Seafood"},{id:14,name:"Pet Foods & Toy"}];
-
+    
     // État pour gérer l'ouverture/fermeture du menu déroulant
     const [isOpenSelect, setisOpenSelect] = useState(false);
 
@@ -85,4 +85,6 @@ export default function Select() {
             )}
         </div>
     );
+
 }
+
