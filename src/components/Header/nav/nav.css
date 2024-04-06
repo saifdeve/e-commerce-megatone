@@ -1,12 +1,12 @@
-.nav{width: auto; height: 50px;margin-top: 10px;}
-.container{display: flex;width: auto;height: 100%;}
+.nav{width: auto; height: 70px;margin-top: 10px; border-bottom: 1px solid #ecf1ee;z-index: 100;}
+.container{display: flex;width: auto;height: 100%; padding: 10px 0;}
 /* ---------------------------- */
 .container .nav-button{position: relative;;width: 20%;margin: 5px 0px 0px 20px;}
 .container .nav-button .categoriesBtn{height: 90%;width: 95%;border-radius: 5px;background-color: #3BB77E;color: white;}
 .container .nav-button .categoriesBtn:hover{background-color: #4aa77b;transition: 0.5s;}
 .container .nav-button ul{ position: absolute;top:50px;right:10;list-style: none;}
 .container .nav-button img{width: 30px;}
-.container .nav-button .categoriesList{ display: grid;grid-template-columns: repeat(2,1fr);background:white ;width: 500px;padding: 20px;border: 1px solid #bce3c9;border-radius: 10px; box-shadow: 0 3px 6px rgb(0 0 0 / 20%);}
+.container .nav-button .categoriesList{ display: grid;grid-template-columns: repeat(2,1fr);background:white ;width: 500px;padding: 20px;border: 1px solid #bce3c9;border-radius: 10px; box-shadow: 0 3px 6px rgb(0 0 0 / 20%);z-index: 10;}
 .container .nav-button .categoriesList .categoriesListBtn{width: 200px;height: 50px;margin: 0px 10px 10px 10px;justify-content: space-around;}
 .container .nav-button .categoriesBtn span{padding: 5px 10px 0 5px;font-size: 12px;}
 .container .nav-button .categoriesBtn .arrow{position: absolute;top: 15px;right:10px;font-size: 15px;}
@@ -19,4 +19,6 @@
 .container .nav-menus ul li a {text-decoration: none;color: #253D4E}
 .container .nav-menus ul li a:hover{text-decoration: none;color: #3BB77E;transition:0.5s;}
 /* ---------------------------- */
-.container .nav-support{width: 20%;background-color: blue;}
+.container .nav-support{display: flex;width: 20%;padding-left: 50px;}
+.container .nav-support span{padding: 20px 0 20px 10px;font-family:'Times New Roman', Times, serif;font-weight: 700;color: #7E7E7E;}
+

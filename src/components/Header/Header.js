@@ -10,6 +10,7 @@ import SearchIcon from '@mui/icons-material/Search';
 // Importation des composants Select et ListHeader
 import Select from '../selectDrop/select';
 import ListHeader from '../listHeader/listHeader';
+import { Link } from 'react-router-dom';
 
 import Nav from './nav/nav.js';
 
@@ -21,7 +22,7 @@ export default function Header() {
             <div className='container-fluid'>
                 {/* Logo */}
                 <div className='headerLogo'>
-                    <img style={{width:'150px'}} src={Logo} alt='Logo' />
+                    <Link to='/home'><img style={{width:'150px'}} src={Logo} alt='Logo' /></Link>
                 </div>
 
                 {/* Barre de recherche et sélecteur de catégories */}

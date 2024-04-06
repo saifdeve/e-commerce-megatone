@@ -46,7 +46,8 @@ export default function Nav(){
                     </ul>
                 </div>
                 <div className='nav-support'>
-                    <img src='' alt=''/>
+                    <img style={{marginTop:'5px',width:'30px'}} src='https://wp.alithemes.com/html/nest/demo/assets/imgs/theme/icons/icon-headphone.svg' alt=''/>
+                    <span>24/7 Support Center</span>
                 </div>
             </div>
         </div>

@@ -1,9 +1,12 @@
 import './homePage.css'
+import SliderHome from './slider/sliderHome';
+import CatSlider from './catSlider/catSlider';
 
 export default function Home(){
     return(
         <>
-            <h1>Home</h1>
+            <SliderHome/>
+            <CatSlider/>
         </>
 
     );

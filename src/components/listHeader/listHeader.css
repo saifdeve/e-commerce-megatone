@@ -39,6 +39,7 @@
     height: auto; /* Ajuste automatiquement la hauteur en fonction du contenu */
     box-shadow: 0 3px 6px rgb(0 0 0 / 20%); /* Ajoute une ombre à l'élément */
     background: #ffff;
+    z-index: 100;
 }
 
 /* Style pour chaque élément de la liste déroulante */

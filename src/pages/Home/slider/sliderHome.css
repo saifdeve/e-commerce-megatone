@@ -1,0 +1,25 @@
+.homeSlider{padding: 25px;}
+.container-fluid{}
+.homeSliderMain{overflow: hidden;position: relative;}
+.imgSlider{width: 100%;border-radius: 25px;}
+/* classes Slader */
+.slick-arrow{position: absolute;top:50%;width: 40px !important;height: 40px !important;border-radius: 50% !important;background: transparent !important;z-index: 1 !important;box-shadow: 0 3px 6px rgb(0 0 0 / 20%);}
+.slick-arrow:hover{background: #3BB77E !important;transition: all 0.5s ease-in-out;}
+.slick-arrow.slick-next{right:2% !important;}
+.slick-arrow.slick-next::before{content: "\f105"!important;font-family: "FontAwesome";color: #000;}
+.slick-arrow.slick-next:hover::before{color:#ffff;}
+.slick-arrow.slick-prev{left:2% !important;}
+.slick-arrow.slick-prev:hover::before{color:#ffff;}
+.slick-arrow.slick-prev::before{content: "\f104"!important;font-family: "FontAwesome";color: #000;}
+.homeSliderMain .slick-dots {position: absolute;bottom: 25px !important;}
+.homeSliderMain .slick-dots button::before{font-size: 20px !important;width: 15px!important;height: 15px!important;color: transparent !important;border: 1px solid #3BB77E;border-radius: 50%;}
+.homeSliderMain .slick-dots .slick-active button::before{border: 0!important;color: #3BB77E !important;transition: all 0.5s ease-in-out;}
+.insideSlider{position: relative;font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;z-index: 100;}
+.insideSlider .textOnSlider{position: absolute; top:15%;left:7%;}
+.insideSlider .textOnSlider h1{font-size: 50px;color: rgba(1, 14, 71, 0.7);margin: 20px 0;}
+.insideSlider .textOnSlider p{margin: 20px 0;font-size: 20px;color: rgba(0, 0, 0, 0.5);}
+.insideSlider .textOnSlider .newsletter{position: relative;width: 100%;height: 60px;margin: 30px 0;}
+.insideSlider .textOnSlider .newsletter .iconNewletter{position: absolute;top: 17px;left:20px;width: 10%;opacity: 0.5;}
+.insideSlider .textOnSlider .newsletter input{width: 90%;height: 100%;outline: none !important;border: 0;padding-left: 15%;border-radius: 50px;}
+.insideSlider .textOnSlider .newsletter .btnNewletter{background-color: #3BB77E;position: absolute;right: 0;width: 35%;height: 100%;border-radius: 50px;color: #ffff;}
+.insideSlider .textOnSlider .newsletter .btnNewletter:hover{background-color: #29A56C !important;transition: 1s;}
