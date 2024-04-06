@@ -10,6 +10,5 @@
 .slick-slide .imgItem{width: 80px;margin: 10px 20px;}
 .slick-slide .catH6Item{color: #253D4E;font-size: 16px;}
 .slick-slide .catSpanItem{font-size: 14px;margin: 5px 0;opacity: 0.5;}
-.catSliderMain .slick-arrow{zoom: 90%;}
 .catSliderMain .slick-arrow.slick-next {top: 0px !important;right:5px !important;}
 .catSliderMain .slick-arrow.slick-prev {top: 0px !important;right:60px !important;left: inherit !important;}
