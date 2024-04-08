@@ -21,37 +21,27 @@ export default function SliderHome(){
         autoplay: true,
         autoplaySpeed: 5000 // 5 seconds
     };
+    const HomeSlider = [{id:1,img:Slider1,firstTitre:"Fresh Vegetables",laterTitre:"Big discount",smallTitre:"Sign up for the daily newsletter",btnNewletter:"Subscribe"},{id:2,img:Slider2,firstTitre:"Fresh Vegetables",laterTitre:"Big discount",smallTitre:"Sign up for the daily newsletter",btnNewletter:"Subscribe"}]
     return(
         <>
         <section className='homeSlider'>
             <Slider {...settings} className='homeSliderMain'>
-                <div className='insideSlider'>
-                    <img className='imgSlider' src={Slider1} alt='slider-1'/>
-                    <div className='textOnSlider'>
-                        <h1 >Fresh Vegetables<br/>Big discount</h1>
-                        <p>Sign up for the daily newsletter</p>
-                        <div className='newsletter'>
-                            <SendIcon className='iconNewletter'/>
-                            <input type='email' placeholder='Your emaill address'/>
-                            <Button className='btnNewletter'>Subscribe</Button>
+                {
+                    HomeSlider.map((homeslider)=>(
+                        <div className='insideSlider' key={homeslider.id}>
+                        <img className='imgSlider' src={homeslider.img} alt='slider-1'/>
+                        <div className='textOnSlider'>
+                            <h1 >{homeslider.firstTitre}<br/>{homeslider.laterTitre}</h1>
+                            <p>{homeslider.smallTitre}</p>
+                            <div className='newsletter'>
+                                <SendIcon className='iconNewletter'/>
+                                <input type='email' placeholder='Your emaill address'/>
+                                <Button className='btnNewletter'>{homeslider.btnNewletter}</Button>
+                            </div>
                         </div>
-
                     </div>
-
-                </div>
-                <div className='insideSlider'>
-                    <img className='imgSlider' src={Slider2} alt='slider-1'/>
-                    <div className='textOnSlider'>
-                        <h1 >Fresh Vegetables<br/>Big discount</h1>
-                        <p>Sign up for the daily newsletter</p>
-                        <div className='newsletter'>
-                            <SendIcon className='iconNewletter'/>
-                            <input type='email' placeholder='Your emaill address'/>
-                            <Button className='btnNewletter'>Subscribe</Button>
-                        </div>
-
-                    </div>
-                </div>
+                    ))
+                }
             </Slider>
         </section>
 

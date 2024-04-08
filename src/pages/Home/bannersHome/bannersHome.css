@@ -1,0 +1,10 @@
+.container-banners{position: relative;;display: flex;justify-content: space-around;margin-bottom: 50px;}
+.container-banners .banner{width: 30%;cursor: pointer;}
+.container-banners .banner .imgBanner{width: 100%;height: 100%;;border-radius: 15px;}
+.container-banners .banner .content-banner{position: absolute;top: 50px;padding-left: 50px;}
+.container-banners .banner .content-banner .titreBanner{width: 50%;height: 100px;margin: 10px 0;font-size: 24px;font-family: "General Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";color: #253D4E;line-height: 1.2;}
+.container-banners .banner:hover .content-banner .titreBanner{margin-top: 0;transition:all 0.5s ease-in-out;}
+.container-banners .banner .content-banner .btnBanner{background-color: #29A56C;font-size: 12px;font-weight: 700;font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;text-transform: none;padding-left: 10px;color: white;}
+.container-banners .banner .content-banner .btnBanner:hover{background-color: #FDC040;width: 100px;padding-left:10px;transition: 0.5s;}
+.container-banners .banner .content-banner .btnBanner .iconBtnBanner{font-size: 14px;font-weight: 700;margin-left: 5px;}
+.container-banners .banner .content-banner .btnBanner:hover .iconBtnBanner{margin-left: 10px;}

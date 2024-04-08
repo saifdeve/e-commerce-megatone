@@ -22,13 +22,12 @@ export default function CatSlider(){
                 <h3 className='tetleCat'>Featured Categories</h3> 
                 <Slider {...settings} className='catSliderMain'>
                     {
-                        Categoriesitems.map((item,index)=>(
+                        Categoriesitems.map((item)=>(
                             <div key={item.id} className='item'>
                                 <a className='itemlink' href={item.link}><img className='imgItem' src={item.img} alt='alt'/>
                                 <h6 className='catH6Item'>{item.name}</h6></a>
                                 <p className='catSpanItem'>{item.qt}</p>
                             </div>
-                            
                         ))
                     }
                 </Slider>

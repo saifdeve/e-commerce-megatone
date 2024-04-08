@@ -1,0 +1,18 @@
+.content-product{border-radius: 15px;margin: 12px;width:18%;padding: 20px 25px 10px 25px;box-shadow: 0 3px 6px rgb(0 0 0 / 20%);transition: all 0.5s ease-in-out;}
+.content-product:hover{transform: scale(1.01);box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);}
+.content-product:hover .botton-card h4{color: #29A56C;}
+.content-product .top-card{position: relative;}
+.content-product .top-card .product-badges{position: absolute;top:-20px;left: -25px;z-index:1;background-color: #f74b81;border-radius: 15px 0 20px 0;color: #fff;padding: 9px 20px 10px 20px;font-size: 12px;}
+.content-product .top-card .product-img{width: 100%;border-radius: 15px;transition: 0.5s;}
+.content-product .top-card .product-img:hover{transform: scale(1.1);}
+.content-product .botton-card{margin-top: 10px;}
+.content-product .botton-card h6{margin: 10px 0;opacity: 0.7;}
+.content-product .botton-card h4{margin: 10px 0;color: #253D4E;}
+.content-product .botton-card .ration{display: flex;margin: 10px 0;}
+.content-product .botton-card .ration .css-15befwp-MuiRating-root{font-size: 1rem!important;}
+.content-product .botton-card .rationValue{font-size: 13px;padding-left: 5px;opacity: 0.7;}
+.content-product .botton-card Button{background-color: #DEF9EC;width: 80px;font-size: 12px;margin: 0 40px;}
+.content-product .botton-card Button:hover{background-color:#29A56C;color: white;}
+.content-product .botton-card .iconWishList{width: 20px;}
+.content-product .botton-card Button span{color: #29A56C;text-transform: none;padding-left: 5px;}
+.content-product .botton-card Button:hover span{color: white;}
