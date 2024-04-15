@@ -7,10 +7,10 @@
 .itemsUlHeader .itemHeader {
     position: relative; /* Positionne l'élément relativement à sa position normale */
     padding: 0px; /* Supprime le remplissage autour de l'élément */
-    margin: 10px 20px; /* Définit les marges autour de l'élément */
+    margin: 10px 15px; /* Définit les marges autour de l'élément */
     cursor: pointer; /* Définit le curseur de la souris en tant que pointeur */
     color: #7E7E7E; /* Définit la couleur du texte */
-    font-family: inherit; /* Utilise la police de caractères de l'élément parent */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /* Utilise la police de caractères de l'élément parent */
 }
 
 /* Style pour les images à l'intérieur des éléments de menu */
@@ -21,7 +21,7 @@
 /* Style pour la représentation numérique de l'état à l'intérieur des éléments de menu */
 .itemsUlHeader .itemHeader .numberStatue {
     position: absolute; /* Positionne l'élément de manière absolue par rapport à son conteneur parent */
-    bottom: 23px; /* Positionne l'élément à 23 pixels du bas de son conteneur parent */
+    top: -10px; /* Positionne l'élément à 23 pixels du bas de son conteneur parent */
     left: 20px; /* Positionne l'élément à 20 pixels de la gauche de son conteneur parent */
     padding: 3px 7px 3px 6px; /* Ajoute un remplissage autour de l'élément */
     border-radius: 50%; /* Définit le rayon de bordure pour créer un cercle */

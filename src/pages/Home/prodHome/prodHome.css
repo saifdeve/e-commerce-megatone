@@ -1,7 +1,14 @@
-.container-products{padding: 30px 30px;font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+.container-products{  padding: 30px 30px;font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex; /* Utilisation de flexbox pour contrôler la disposition */
+    flex-direction: column; /* Disposition verticale des éléments */}
 .container-products .navProducts{display: flex;justify-content: space-between;}
 .container-products .tetlePro{font-size: 30px; font-weight: 600;color: #46254e;}
-.container-products .listNavPro{display: flex;}
+.container-products .listNavPro{display: flex;margin-top: 20px;}
 .container-products .listNavPro .titleNavPro{margin: 10px;list-style: none;color: #46254e;transition:0.5s ease-in-out;cursor: pointer;font-weight: 600;}
 .container-products .listNavPro .titleNavPro:hover{color: #29A56C;margin-top: 6px;}
-.container-products .list-product{display: flex;height: 400px;margin: 20px 0px;flex-wrap: wrap;}
+.container-products .list-product{  display: flex;
+    flex-wrap: wrap; /* Permet aux éléments enfants de se "replier" sur plusieurs lignes */
+    justify-content: flex-start; /* Alignement des éléments au début de la ligne principale */
+    align-items: flex-start; /* Alignement des éléments au début de la ligne transversale */
+    gap: 2rem; /* Espacement entre les éléments */
+}

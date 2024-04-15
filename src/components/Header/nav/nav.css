@@ -1,5 +1,5 @@
-.nav{width: auto; height: 70px;margin-top: 10px; border-bottom: 1px solid #ecf1ee;z-index: 100;}
-.container{display: flex;width: auto;height: 100%; padding: 10px 0;}
+.nav{width: auto;margin-top: 10px; border-bottom: 1px solid #ecf1ee;z-index: 100;}
+.container{display: flex;width: auto;}
 /* ---------------------------- */
 .container .nav-button{position: relative;;width: 20%;margin: 5px 0px 0px 20px;}
 .container .nav-button .categoriesBtn{height: 90%;width: 95%;border-radius: 5px;background-color: #3BB77E;color: white;}
@@ -14,11 +14,11 @@
 .container .nav-button .categoriesList .categoriesListBtn:hover{border: 1px solid #4aa77b; color: #4aa77b;transition: 0.5s;}
 /* ---------------------------- */
 .container .nav-menus{width: 60%;}
-.container .nav-menus ul{display: flex; justify-content: space-around;height: 100%;padding-top: 15px;}
+.container .nav-menus ul{display: flex; justify-content: space-around;height: 100%;margin-top: 13px;}
 .container .nav-menus ul li{position:relative;cursor: pointer;list-style: none; font-weight: 600;color: #253D4E;font-family: "Quicksand", sans-serif;font-size: 15px;}
 .container .nav-menus ul li a {text-decoration: none;color: #253D4E}
 .container .nav-menus ul li a:hover{text-decoration: none;color: #3BB77E;transition:0.5s;}
 /* ---------------------------- */
 .container .nav-support{display: flex;width: 20%;padding-left: 50px;}
-.container .nav-support span{padding: 20px 0 20px 10px;font-family:'Times New Roman', Times, serif;font-weight: 700;color: #7E7E7E;}
+.container .nav-support span{padding: 15px 0 20px 10px;font-family:'Times New Roman', Times, serif;font-weight: 700;color: #7E7E7E;}
 

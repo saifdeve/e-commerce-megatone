@@ -1,16 +1,22 @@
 /* Définition du style pour l'en-tête */
 header {
+    /* position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2000;
+    background-color: white; */
     width: 100%; /* Définit la largeur de l'en-tête à 100% de la largeur de son conteneur parent */
     height: auto; /* Ajuste automatiquement la hauteur en fonction du contenu */
     margin: auto; /* Centre l'en-tête horizontalement */
     font-family: "Lato", sans-serif; /* Définit la police de caractères pour l'en-tête */
-
+    transition: .2s ease-in;
 }
-
+header.fixed{position: fixed;z-index: 2000;width: 100%;top:-60px;left:0px;background-color: white;box-shadow: 0 3px 6px rgb(0 0 0 / 5%);}
+header.scroll{position: fixed;z-index: 2000;width: 100%;top:0px;left:0px;background-color: white;box-shadow: 0 3px 6px rgb(0 0 0 / 5%);transition: 0.5s;}
 /* Style pour le conteneur fluide à l'intérieur de l'en-tête */
 header .container-fluid {
     display: flex; /* Affiche les éléments en utilisant le modèle de boîte flexible */
-    padding: 10px 25px; /* Ajoute un remplissage de 0 pixels sur les côtés gauche et droit et de 25 pixels en haut et en bas */
+    padding: 10px 25px 0 25px; /* Ajoute un remplissage de 0 pixels sur les côtés gauche et droit et de 25 pixels en haut et en bas */
     border-bottom: 1px solid #ecf1ee;
 }
 

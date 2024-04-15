@@ -9,14 +9,16 @@ import VisibilityIcon from '@mui/icons-material/Visibility';
 
 export default function Produt({badge,image,titleCategory,titleProduct,ByWho}){
     const [rationValue,setRationValue]= useState(3.5);
-    function handleRationChange(event, newValue){
+    const handleRationChange = (event, newValue) => {
         setRationValue(newValue); // Mettre à jour la valeur du rating
       };
 
     return(
         <div className='content-product'>
             <div className='top-card'>
-               <div className='product-badges'>{badge}</div>
+                {badge !== null && badge !== undefined && 
+                    <div className={`product-badges ${badge}`}>{badge}</div>
+                }
                <img className='product-img' src={image} alt='img-1'/>
                <div className='product-action'>
                     <ul className='list-action'>

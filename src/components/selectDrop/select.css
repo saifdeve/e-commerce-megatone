@@ -3,6 +3,7 @@
     position: relative; /* Positionnement relatif pour l'élément parent */
     display: block; /* Affiche l'élément en tant que bloc */
     padding: 0 5px 10px 10px; /* Ajoute un remplissage à l'élément */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 /* Style pour la flèche de l'élément de sélection */
@@ -24,6 +25,7 @@
     box-shadow: 0 3px 6px rgb(0 0 0 / 20%); /* Ajoute une ombre à l'élément */
     padding: 15px; /* Ajoute un remplissage à l'élément */
     background: #ffffff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 /* Style pour la zone de recherche dans le menu déroulant */

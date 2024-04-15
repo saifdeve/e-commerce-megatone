@@ -11,15 +11,15 @@ export default function ProdHome(){
                         {id:7,title:"Fruits"}
                     ];
     const Products =[   {id:1,badge:"Hot",img:"https://wp.alithemes.com/html/nest/demo/assets/imgs/shop/product-1-1.jpg",titleCategory:"Hodo Foods",titleProduct:"All Natural Italian-Style Chicken Meatballs",ByWho:"NestFood"},
-                        {id:2,badge:"Hot",img:"https://wp.alithemes.com/html/nest/demo/assets/imgs/shop/product-1-1.jpg",titleCategory:"Hodo Foods",titleProduct:"All Natural Italian-Style Chicken Meatballs",ByWho:"NestFood"},
-                        {id:3,badge:"Hot",img:"https://wp.alithemes.com/html/nest/demo/assets/imgs/shop/product-1-1.jpg",titleCategory:"Hodo Foods",titleProduct:"All Natural Italian-Style Chicken Meatballs",ByWho:"NestFood"},
-                        {id:4,badge:"Hot",img:"https://wp.alithemes.com/html/nest/demo/assets/imgs/shop/product-1-1.jpg",titleCategory:"Hodo Foods",titleProduct:"All Natural Italian-Style Chicken Meatballs",ByWho:"NestFood"},
-                        {id:5,badge:"Hot",img:"https://wp.alithemes.com/html/nest/demo/assets/imgs/shop/product-1-1.jpg",titleCategory:"Hodo Foods",titleProduct:"All Natural Italian-Style Chicken Meatballs",ByWho:"NestFood"},
-                        {id:6,badge:"Hot",img:"https://wp.alithemes.com/html/nest/demo/assets/imgs/shop/product-1-1.jpg",titleCategory:"Hodo Foods",titleProduct:"All Natural Italian-Style Chicken Meatballs",ByWho:"NestFood"},
-                        {id:7,badge:"Hot",img:"https://wp.alithemes.com/html/nest/demo/assets/imgs/shop/product-1-1.jpg",titleCategory:"Hodo Foods",titleProduct:"All Natural Italian-Style Chicken Meatballs",ByWho:"NestFood"},
-                        {id:8,badge:"Hot",img:"https://wp.alithemes.com/html/nest/demo/assets/imgs/shop/product-1-1.jpg",titleCategory:"Hodo Foods",titleProduct:"All Natural Italian-Style Chicken Meatballs",ByWho:"NestFood"},
-                        {id:9,badge:"Hot",img:"https://wp.alithemes.com/html/nest/demo/assets/imgs/shop/product-1-1.jpg",titleCategory:"Hodo Foods",titleProduct:"All Natural Italian-Style Chicken Meatballs",ByWho:"NestFood"},
-                        {id:10,badge:"Hot",img:"https://wp.alithemes.com/html/nest/demo/assets/imgs/shop/product-1-1.jpg",titleCategory:"Hodo Foods",titleProduct:"All Natural Italian-Style Chicken Meatballs",ByWho:"NestFood"}
+                        {id:2,badge:"Sale",img:"https://wp.alithemes.com/html/nest/demo/assets/imgs/shop/product-1-1.jpg",titleCategory:"Hodo Foods",titleProduct:"All Natural Italian-Style Chicken Meatballs",ByWho:"NestFood"},
+                        {id:3,badge:"New",img:"https://wp.alithemes.com/html/nest/demo/assets/imgs/shop/product-1-1.jpg",titleCategory:"Hodo Foods",titleProduct:"All Natural Italian-Style Chicken Meatballs",ByWho:"NestFood"},
+                        {id:4,badge:"",img:"https://wp.alithemes.com/html/nest/demo/assets/imgs/shop/product-1-1.jpg",titleCategory:"Hodo Foods",titleProduct:"All Natural Italian-Style Chicken Meatballs",ByWho:"NestFood"},
+                        {id:5,badge:"Best",img:"https://wp.alithemes.com/html/nest/demo/assets/imgs/shop/product-1-1.jpg",titleCategory:"Hodo Foods",titleProduct:"All Natural Italian-Style Chicken Meatballs",ByWho:"NestFood"},
+                        {id:6,badge:"Sale",img:"https://wp.alithemes.com/html/nest/demo/assets/imgs/shop/product-1-1.jpg",titleCategory:"Hodo Foods",titleProduct:"All Natural Italian-Style Chicken Meatballs",ByWho:"NestFood"},
+                        {id:7,badge:"New",img:"https://wp.alithemes.com/html/nest/demo/assets/imgs/shop/product-1-1.jpg",titleCategory:"Hodo Foods",titleProduct:"All Natural Italian-Style Chicken Meatballs",ByWho:"NestFood"},
+                        {id:8,badge:"Best",img:"https://wp.alithemes.com/html/nest/demo/assets/imgs/shop/product-1-1.jpg",titleCategory:"Hodo Foods",titleProduct:"All Natural Italian-Style Chicken Meatballs",ByWho:"NestFood"},
+                        {id:9,badge:"",img:"https://wp.alithemes.com/html/nest/demo/assets/imgs/shop/product-1-1.jpg",titleCategory:"Hodo Foods",titleProduct:"All Natural Italian-Style Chicken Meatballs",ByWho:"NestFood"},
+                        {id:10,badge:"",img:"https://wp.alithemes.com/html/nest/demo/assets/imgs/shop/product-1-1.jpg",titleCategory:"Hodo Foods",titleProduct:"All Natural Italian-Style Chicken Meatballs",ByWho:"NestFood"}
                     ];
     return(
         <div className='container-products'>

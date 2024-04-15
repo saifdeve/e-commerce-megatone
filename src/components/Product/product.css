@@ -1,8 +1,12 @@
-.content-product{border-radius: 15px;margin: 12px;width:18%;padding: 20px 25px 10px 25px;box-shadow: 0 3px 6px rgb(0 0 0 / 20%);transition: all 0.5s ease-in-out;}
+.content-product{border-radius: 15px;width:230px;padding: 20px 25px 10px 25px;box-shadow: 0 3px 6px rgb(0 0 0 / 20%);transition: all 0.5s ease-in-out;}
 .content-product:hover{transform: scale(1.01);box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);cursor: pointer;}
 .content-product:hover .botton-card h4{color: #29A56C;}
 .content-product .top-card{position: relative;}
-.content-product .top-card .product-badges{position: absolute;top:-20px;left: -25px;z-index:1;background-color: #f74b81;border-radius: 15px 0 20px 0;color: #fff;padding: 9px 20px 10px 20px;font-size: 12px;}
+.content-product .top-card .product-badges{position: absolute;top:-20px;left: -25px;z-index:1;border-radius: 15px 0 20px 0;color: #fff;padding: 9px 20px 10px 20px;font-size: 12px;}
+.content-product .top-card .product-badges.Hot{background-color: #f74b81;}
+.content-product .top-card .product-badges.Sale{background-color: #67bcee;}
+.content-product .top-card .product-badges.New{background-color: #3BB77E;}
+.content-product .top-card .product-badges.Best{background-color: #f59758;}
 .content-product .top-card .product-img{width: 100%;border-radius: 15px;transition: 0.5s;}
 .content-product .top-card .product-img:hover{transform: scale(1.1);}
 .content-product .top-card .product-action{position: absolute;top: 80px;right: 20px;visibility: hidden;}

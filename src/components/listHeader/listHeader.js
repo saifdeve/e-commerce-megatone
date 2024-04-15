@@ -51,7 +51,7 @@ export default function ListHeader() {
                                 {list.statue}
                             </span>
                             {/* Affichage du nom de l'élément */}
-                            <span style={{ marginLeft: '3px' }}>{list.item}</span>
+                            <span style={{marginLeft:'5px'}}>{list.item}</span>
                             {/* Affichage des boutons pour "My Account" */}
                             {list.item === 'Account' && isAccountHovered && (
                                 <ul className='dropDownMenuAccount'>

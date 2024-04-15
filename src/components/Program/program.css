@@ -1,0 +1,7 @@
+.card-program{background-color: rgb(255, 0, 0);width:300px;box-shadow: 0 3px 6px rgb(0 0 0 / 20%);transition: all 0.5s ease-in-out;}
+.card-program img{width: 100%;border-radius: 15px;}
+.card-program .temp-program{background-color: aqua;display: flex;justify-content: space-evenly; width: 90%;margin: auto;}
+.card-program .temp-program .temp{background-color: azure;display: flex; flex-direction: column;text-align: center;padding: 10px;}
+.card-program .temp-program .temp:hover{padding: 5px 10px 10px 10px;transition:all 0.5s ease-in-out;}
+.card-program .temp-program .temp .temp-number{font-size: 18px;font-weight: 700;color: #3BB77E;}
+.card-program .temp-program .temp .temp-date{opacity: 0.5;}
