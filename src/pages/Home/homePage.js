@@ -6,6 +6,7 @@ import BannersHome from './bannersHome/bannersHome';
 import ProdHome from './prodHome/prodHome';
 import BestSells from './bestSells/bestSells';
 import DealsDay from './dealsDay/dealsDay';
+import Trending from './trending/trending';
 
 export default function Home(){
     return(
@@ -16,6 +17,7 @@ export default function Home(){
             <ProdHome/>
             <BestSells/>
             <DealsDay/>
+            <Trending/>
         </>
     );
 }

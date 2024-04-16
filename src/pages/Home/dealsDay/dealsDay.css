@@ -1,6 +1,7 @@
-.container-deals{padding: 30px 30px;font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+.container-deals{margin-bottom: 30px;padding: 30px 30px;font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
 .container-deals .NavDeals{display: flex;justify-content: space-between;}
 .container-deals .NavDeals .tetlePro{font-size: 30px; font-weight: 600;color: #46254e;}
 .container-deals .NavDeals .btnBanner{text-transform: none;color: #46254e;transition:0.5s ease-in-out;cursor: pointer;font-weight: 600;}
 .container-deals .NavDeals .btnBanner .iconBtnBanner{font-size: 14px;font-weight: 700;margin-left: 5px;}
 .container-deals .NavDeals .btnBanner:hover{color:#29A56C;}
+.container-deals .content-deals{display: flex;justify-content: space-evenly;gap: 1em;margin-top:20px;}

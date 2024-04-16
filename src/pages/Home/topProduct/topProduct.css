@@ -1,0 +1,4 @@
+.container-trending{width: 100%;}
+.container-trending .title-trending{position: relative;color: #46254e;border-bottom: 1px solid #ececec;padding-bottom: 20px;font-size: 23px;}
+.container-trending .title-trending::after{content: "";width: 80px;height: 2px;position: absolute;bottom: 0;left: 0;background-color: #BCE3C9;}
+.container-trending .content-trending{}
