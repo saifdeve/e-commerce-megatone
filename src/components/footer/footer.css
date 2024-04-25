@@ -1,0 +1,27 @@
+.footer{padding: 5px;margin-top: 20px;color:#253D4E;}
+.footer .row-footer{display: flex;gap: 1rem;justify-content: space-between;width: 100%;}
+.footer .row-footer .info-row{width: 25%;}
+.footer .row-footer .info-row .info-img{display: flex;justify-content: center;align-items: center;margin: 10px;}
+.footer .row-footer .info-row .info-img img{width: 65%;}
+.footer .row-footer .info-row .info-centent{margin: 30px 10px;}
+.footer .row-footer .info-row .info-centent ul{list-style: none;}
+.footer .row-footer .info-row .info-centent ul li{margin: 10px 0;}
+.footer .row-footer .info-row .info-centent ul li img{padding-right: 10px;}
+/* ---------------------------------------- */
+.footer .row-footer .partie-row{display: flex;gap: 1rem;justify-content: space-around;width: 75%;padding: 10px 5px;}
+.footer .row-footer .partie-row .partie{width: 25%;}
+.footer .row-footer .partie-row .partie h4{margin: 10px;font-size: 24px;}
+.footer .row-footer .partie-row .partie ul{list-style: none;}
+.footer .row-footer .partie-row .partie ul li{margin: 5px 0;padding: 5px 20px;}
+.footer .row-footer .partie-row .partie ul li a{text-decoration: none;color:#253D4E;margin-left: 0;}
+.footer .row-footer .partie-row .partie ul li a:hover {margin-left: 5px;color:#3BB77E;transition: all .5s ease-in-out;}
+/* ---------------------------------------- */
+.footer .row-footer-bottom{height: 100px;display: flex;align-items: center;justify-content: space-around;} 
+.footer .row-footer-bottom .social .follow{display: flex;align-items: center;height: 50px;}
+.footer .row-footer-bottom .social .follow h6{width: 30%;margin: 0 10px;font-size: 16px;}
+.footer .row-footer-bottom .social .follow .social-media{width: 70%;display: flex;gap: 1rem;justify-content: space-around;}
+.footer .row-footer-bottom .social .follow .social-media button{background-color: #3BB77E;width: 35px; height: 35px;border-radius: 50%;border: 0;}
+.footer .row-footer-bottom .social .follow .social-media button:hover{transform:scale(1.1);}
+.footer .row-footer-bottom .social .follow .social-media button img{background-color: #3BB77E;border-radius: 50%;width: 50%;padding-top: 3px;}
+.footer .row-footer-bottom .social .follow .social-media button:hover img{transform:scale(1.2);}
+.footer .row-footer-bottom .social p{opacity: 0.5;margin: 0 15px;}

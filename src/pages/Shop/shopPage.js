@@ -1,9 +1,11 @@
 import './shopPage.css';
 
+import ArchiveHeader from "../../components/ArchiveHeader/archiveHeader";
+
 export default function Shop(){
     return(
         <>
-            <h1>Shop</h1>
+            <ArchiveHeader title="Shop"/>
         </>
     );
 

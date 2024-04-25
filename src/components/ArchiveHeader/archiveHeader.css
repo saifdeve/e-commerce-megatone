@@ -1,0 +1,7 @@
+.archiveHeader{background: url("https://wp.alithemes.com/html/nest/demo/assets/imgs/blog/header-bg.png");padding-top: 20px;margin: 30px;border-radius: 15px;}
+.archiveHeader h1{margin:0 40px;color: #253D4E;font-weight: 700;font-size: 40px;line-height: 1.2;}
+.archiveHeader .pages ul{display: flex;list-style: none;align-items: center;margin: 0 20px;}
+.archiveHeader .pages ul li{margin: 20px;}
+.archiveHeader .pages ul li a{text-decoration: none;font-weight: 700;display: flex;align-items: center;color: #3BB77E;}
+.archiveHeader .pages ul li a span{margin-left: 5px;}
+.archiveHeader .pages ul :hover a {color: #ffc107;transition: all 0.5s ease-in-out;}

@@ -1,0 +1,13 @@
+.newsLetter{display: flex;background: url("https://wp.alithemes.com/html/nest/demo/assets/imgs/banner/banner-10.png");margin:10px;border-radius: 15px;}
+.newsLetter .content-newsLetter{width: 50%;margin: 20px;}
+.newsLetter .content-newsLetter .titles-newsLetter{margin: 20px 40px;}
+.newsLetter .content-newsLetter .titles-newsLetter h2{font-size: 40px; font-weight: 600;font-family: "Quicksand", sans-serif;line-height: 1.2;color: #253D4E;margin: 20px 0;}
+.newsLetter .content-newsLetter .titles-newsLetter p{color: #7E7E7E;}
+.newsLetter .content-newsLetter .titles-newsLetter span{color: #3BB77E;}
+.newsLetter .content-newsLetter .subscribe-newsLetter{position: relative;width: 100%;height: 60px;margin: 30px 0;}
+.newsLetter .content-newsLetter .subscribe-newsLetter .iconNewletter{position: absolute;top: 17px;left:30px;width: 10%;opacity: 0.5;}
+.newsLetter .content-newsLetter .subscribe-newsLetter input{width: 70%;height: 100%;outline: none !important;border: 0;padding-left: 15%;border-radius: 50px;margin-left: 20px;}
+.newsLetter .content-newsLetter .subscribe-newsLetter .btnNewletter{background-color: #3BB77E;position: absolute;right: 50px;width: 35%;height: 100%;border-radius: 50px;color: #ffff;text-transform: none;}
+.newsLetter .content-newsLetter .subscribe-newsLetter .btnNewletter:hover{background-color: #29A56C !important;transition: 1s;}
+.img-newsLetter{width: 50%;position: relative;}
+.img-newsLetter img{width: 90%;position: absolute;bottom: 0;right: 0;}

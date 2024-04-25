@@ -1,9 +1,11 @@
 import './blogPage.css';
 
+import ArchiveHeader from "../../components/ArchiveHeader/archiveHeader";
+
 export default function Blog(){
     return(
         <>
-            <h1>Blog</h1>
+            <ArchiveHeader title="Blog"/>
         </>
     );
 

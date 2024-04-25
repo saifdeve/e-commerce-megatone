@@ -1,0 +1,6 @@
+.arrowUp{position: fixed;bottom: 30px;right: 30px;z-index: 1000;}
+.arrowUp button{width: 40px;height: 40px;border-radius: 50%;border: solid #253D4E;cursor: pointer;}
+.arrowUp button:hover{margin-bottom: 10px;transition: all 0.5s ease-in-out;}
+.arrowUp .fa-arrow-up:before {
+    color:#253D4E
+}

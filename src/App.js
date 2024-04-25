@@ -7,6 +7,9 @@ import About from './pages/About/aboutPage';
 import Shop from './pages/Shop/shopPage';
 import Blog from './pages/Blog/blogPage';
 import Contact from './pages/Contact/contactPage';
+import Footer from './components/Footer/footer';
+import NewsLetter from './components/newsLetter/newsLetter';
+import ArrowUp from './components/arrowUp/arrowUp';
 
 function App() {
   return (
@@ -15,10 +18,13 @@ function App() {
         <Routes>
           <Route exact={true} path="/home" element={<Home/>}/>
           <Route exact={true} path="/about" element={<About/>}/>
-          <Route exact={true} path='/shop' element={<Shop/>}/>
+          <Route path="/shop" element={<Shop/>}/>
           <Route exact={true} path='/blog' element={<Blog/>}/>
           <Route exact={true} path="/contact" element={<Contact/>}/>
         </Routes>
+        <NewsLetter/>
+        <Footer/>
+        <ArrowUp/>
       </BrowserRouter>
   );
 }

@@ -21,14 +21,14 @@ export default function SliderHome(){
         autoplay: true,
         autoplaySpeed: 5000 // 5 seconds
     };
-    const HomeSlider = [{id:1,img:Slider1,firstTitre:"Fresh Vegetables",laterTitre:"Big discount",smallTitre:"Sign up for the daily newsletter",btnNewletter:"Subscribe"},{id:2,img:Slider2,firstTitre:"Fresh Vegetables",laterTitre:"Big discount",smallTitre:"Sign up for the daily newsletter",btnNewletter:"Subscribe"}]
+    const HomeSlider = [{img:Slider1,firstTitre:"Fresh Vegetables",laterTitre:"Big discount",smallTitre:"Sign up for the daily newsletter"},{img:Slider2,firstTitre:"Fresh Vegetables",laterTitre:"Big discount",smallTitre:"Sign up for the daily newsletter"}]
     return(
         <>
         <section className='homeSlider'>
             <Slider {...settings} className='homeSliderMain'>
                 {
-                    HomeSlider.map((homeslider)=>(
-                        <div className='insideSlider' key={homeslider.id}>
+                    HomeSlider.map((homeslider,index)=>(
+                        <div className='insideSlider' key={index}>
                         <img className='imgSlider' src={homeslider.img} alt='slider-1'/>
                         <div className='textOnSlider'>
                             <h1 >{homeslider.firstTitre}<br/>{homeslider.laterTitre}</h1>
@@ -36,7 +36,7 @@ export default function SliderHome(){
                             <div className='newsletter'>
                                 <SendIcon className='iconNewletter'/>
                                 <input type='email' placeholder='Your emaill address'/>
-                                <Button className='btnNewletter'>{homeslider.btnNewletter}</Button>
+                                <Button className='btnNewletter'>Subscribe</Button>
                             </div>
                         </div>
                     </div>

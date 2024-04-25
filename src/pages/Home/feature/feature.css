@@ -1,0 +1,9 @@
+.featureCards{display: flex;justify-content: space-around;flex-wrap: wrap;padding: 20px 0;}
+.featureCards .card{display: flex;background-color: #F4F6FA;width: 19%;height: 100px;;margin: 1px;border-radius: 10px;}
+.featureCards .card .card-img{width: 30% ;display: flex;align-items: center;justify-content: center;}
+.featureCards .card .card-img img{width: 80%;}
+.featureCards .card:hover .card-img{display:inline;text-align: center;margin-top: 15px;}
+.featureCards .card .content-card{width: 70%;}
+.featureCards .card .content-card .titles{margin: 20px 0;}
+.featureCards .card .content-card .titles h3{color: #253D4E;font-weight: 700;line-height: 1.2;font-size: 16px;margin: 10px 0;}
+.featureCards .card .content-card .titles p{color: #242424;font-size: 15px;margin-bottom: 5px;opacity: 0.5;}

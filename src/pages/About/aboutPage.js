@@ -1,9 +1,11 @@
 import './aboutPage.css'
 
+import ArchiveHeader from "../../components/ArchiveHeader/archiveHeader";
+
 export default function About(){
     return(
         <>
-            <h1>About</h1>
+            <ArchiveHeader title="About"/>
         </>
 
     );
